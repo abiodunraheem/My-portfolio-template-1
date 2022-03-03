@@ -451,6 +451,7 @@ section-one button {
 }
 .contact-me button {
   margin: -13px 0 36px 40px;
+  align-items: center;
 }
 
 .input-details {
