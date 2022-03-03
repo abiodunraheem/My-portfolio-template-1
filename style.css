@@ -454,6 +454,23 @@ section-one button {
   align-items: center;
 }
 
+.btn:enabled {
+  background: #172b4d;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #172b4d;
+  color: #acb7c3;
+}
+
+.btn:active {
+  background: #172b4d;
+  color: #fff;
+}
+
+
 .input-details {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
