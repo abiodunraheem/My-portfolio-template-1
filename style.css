@@ -70,6 +70,11 @@ body {
   text-decoration: none;
 }
 
+.footer li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .first-background ul li {
   display: flex;
   justify-content: flex-start;
@@ -77,101 +82,7 @@ body {
   padding: 8px 20px 10px 12px;
 }
 
-.first-background ul li a {
-  padding-left: 10px;
-  align-items: center;
-  text-align: center;
-}
-
-.card-1 {
-  width: 90%;
-  height: 99vh;
-  border: 1px solid #dfe1e6;
-  box-sizing: border-box;
-  border-radius: 16px;
-  background-color: #fff;
-  margin: 100px auto;
-}
-
-.card-1 {
-  width: 87%;
-  background-image: url('./images/mobile-card1.png');
-  background-size: 90%;
-  background-position: right 1em top 20px;
-  background-repeat: no-repeat;
-}
-
-.card-2 h2 {
-  padding-right: 20px;
-}
-
-.card-4 h2 {
-  padding-right: 20px;
-}
-
-section-one h2 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  padding: 250px 1px 1px 19px;
-  margin-bottom: 12px;
-}
-
-section-one h4 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 16px;
-  color: #344563;
-  padding: 0 10px 0 21px;
-}
-
-section-one .span1 {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-}
-
-.span1 .span2 {
-  padding-left: 10px;
-}
-
-section-one span {
-  word-spacing: 4px;
-}
-
-section-one p {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  padding: 0 10px 0 21px;
-  line-height: 24px;
-  color: #344563;
-  margin: 15px 0 15px 0;
-}
-
-section-one ul {
-  display: flex;
-  padding-left: 21px;
-}
-
-section-one ul li {
-  padding-right: 8px;
-  margin: 20px 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-section-one ul a {
+.section-one ul a {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -185,7 +96,97 @@ section-one ul a {
   border-radius: 5px;
 }
 
-section-one button {
+.first-background ul li a {
+  padding-left: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.card-1 {
+  height: 99vh;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #fff;
+  margin: 100px auto;
+  width: 87%;
+  background-image: url('./images/mobile-card1.png');
+  background-size: 90%;
+  background-position: right 1em top 20px;
+  background-repeat: no-repeat;
+}
+
+.section-one h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding: 250px 1px 1px 19px;
+  margin-bottom: 12px;
+}
+
+.card-2 h2 {
+  padding-right: 20px;
+}
+
+.card-4 h2 {
+  padding-right: 20px;
+}
+
+.section-one h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #344563;
+  padding: 0 10px 0 21px;
+}
+
+.section-one .span1 {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.span1 .span2 {
+  padding-left: 10px;
+}
+
+.section-one span {
+  word-spacing: 4px;
+}
+
+.section-one p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 0 10px 0 21px;
+  line-height: 24px;
+  color: #344563;
+  margin: 15px 0 15px 0;
+}
+
+.section-one ul {
+  display: flex;
+  padding-left: 21px;
+}
+
+.section-one ul li {
+  padding-right: 8px;
+  margin: 20px 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.section-one button {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 550;
@@ -206,16 +207,12 @@ section-one button {
 }
 
 .card-2 {
-  width: 87%;
   height: 107vh;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   background-color: #fff;
   margin: 100px auto;
-}
-
-.card-2 {
   width: 87%;
   background-image: url('./images/mobile-card2.png');
   background-size: 90%;
@@ -224,16 +221,12 @@ section-one button {
 }
 
 .card-3 {
-  width: 87%;
   height: 99vh;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   background-color: #fff;
   margin: 100px auto;
-}
-
-.card-3 {
   width: 87%;
   background-image: url('./images/moble-card3.png');
   background-size: 90%;
@@ -242,16 +235,12 @@ section-one button {
 }
 
 .card-4 {
-  width: 87%;
   height: 107vh;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   background-color: #fff;
   margin: 100px auto;
-}
-
-.card-4 {
   width: 87%;
   background-image: url('./images/moble-card4.png');
   background-size: 90%;
@@ -308,11 +297,6 @@ section-one button {
   padding: 40px 0;
 }
 
-.footer li {
-  list-style-type: none;
-  text-decoration: none;
-}
-
 .footer ul {
   display: flex;
   flex-direction: column;
@@ -356,15 +340,16 @@ section-one button {
 .footer .vee {
   display: flex;
   justify-content: space-between;
-  margin-right: 60px; 
+  margin-right: 60px;
 }
 
-.vee h4{
+.vee h4 {
   margin-top: 34px;
   font-size: 15px;
   font-weight: normal;
   color: #acb7c3;
 }
+
 .footer hr {
   width: 80%;
   margin: 0 auto;
@@ -441,7 +426,7 @@ section-one button {
 
 .contact-me p {
   text-align: center;
-  margin: 0 20px 10px 20px; 
+  margin: 0 20px 10px 20px;
   color: #fff;
 }
 
@@ -449,6 +434,7 @@ section-one button {
   display: flex;
   flex-direction: column;
 }
+
 .contact-me button {
   margin: -13px 0 36px 40px;
   align-items: center;
@@ -469,7 +455,6 @@ section-one button {
   background: #172b4d;
   color: #fff;
 }
-
 
 .input-details {
   font-family: 'Poppins', sans-serif;
